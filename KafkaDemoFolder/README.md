@@ -1,17 +1,17 @@
 This project demonstrates a basic event-driven architecture using Apache Kafka, where:
 
-- Two independent Python producers send messages to a Kafka topic.
-- A single Python subscriber (consumer) listens to the topic and displays messages from both producers.
+-Two independent Python producers send messages to a Kafka topic.
+-A single Python subscriber (consumer) listens to the topic and displays messages from both producers.
 
 ---
 
 ## Project Structure
 
 KafkaDemoFolder/
-	── producer1.py         # Sends messages to Kafka as 'Producer1'
-	── producer2.py         # Sends messages to Kafka as 'Producer2'
-	── subscriber.py        # Consumes messages from the topic and prints them
-	── README.md            # Project description
+1. producer1.py         # Sends messages to Kafka as 'Producer1'
+2. producer2.py         # Sends messages to Kafka as 'Producer2'
+3. subscriber.py        # Consumes messages from the topic and prints them
+4. README.md            # Project description
 
 ---
 
