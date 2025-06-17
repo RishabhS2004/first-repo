@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package iris;
+
+service RegressService {
+  rpc PredictPetalWidth (RegressRequest) returns (RegressRequest);
+}
+
+service ClassifyService {
+  rpc PredictClass (ClassifyRequest) returns (ClassifyRequest);
+}
+
+message RegressRequest {
+  float sepal_length = 1;
+  float sepal_width = 2;
+  float petal_length = 3;
+
+  // Predicted result added in the same message
+  float predicted_petal_width = 4;
+}
+
+message ClassifyRequest {
+  float sepal_length = 1;
+  float sepal_width = 2;
+  float petal_length = 3;
+  float petal_width = 4;
+
+  // Predicted class result added in the same message
+  string predicted_class = 5;
+}
