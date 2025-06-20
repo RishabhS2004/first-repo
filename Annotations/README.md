@@ -10,14 +10,14 @@
 
 ## 🛠️ Installation
 
-You can install Label Studio using pip:
-pip install label-studio
+You can install Label Studio using pip:  
+pip install label-studio  
 
-To confirm installation:
-label-studio --version
+To confirm installation:  
+label-studio --version  
 
-Label Studio will start a local server. Open your browser and go to:
-http://localhost:8080
+Label Studio will start a local server. Open your browser and go to:  
+http://localhost:8080  
 
 ## Creating a New Project
 
@@ -39,6 +39,13 @@ Image files
 Plain text  
 Each data item should follow a format compatible with the labeling configuration you select.  
 
+In this Example, I have used  
+25 pictures of cats  
+25 pictures of dogs  
+25 pictures of human males  
+25 pictures of human females  
+As my dataset  
+
 ## Performing Annotations
 
 Once your data and label configuration are ready:  
@@ -48,6 +55,13 @@ Apply labels using the interface
 Use keyboard shortcuts to speed up annotation  
 
 All work is auto-saved, and you can monitor progress within the dashboard.  
+
+In this Example, I have used  
+Cats  
+Dogs  
+Males  
+Females  
+As my annotations  
 
 ## Exporting Annotations
 
