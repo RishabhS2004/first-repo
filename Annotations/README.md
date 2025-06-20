@@ -8,7 +8,7 @@
 - Audio transcription  
 - Image segmentation  
 
-## 🛠️ Installation
+## Installation
 
 You can install Label Studio using pip:  
 pip install label-studio  
