@@ -1,9 +1,9 @@
-## MLFlow Demonstration  
+# MLFlow Demonstration  
   
 This project showcases a complete ML experimentation and deployment pipeline using **MLflow** and **Scikit-learn** with the Iris dataset.  
 
 
-# Folder Structure  
+## 📁Folder Structure  
 
 MLFlow Demonstration  
 ├── data_version.py # Trains models on 3 dataset versions  
@@ -12,7 +12,7 @@ MLFlow Demonstration
 ├── mlruns/ # MLflow tracking logs  
 └── README.md # You are here  
 
-#🌼 Dataset Versions  
+## 🌼Dataset Versions  
 
 Three versions of the Iris dataset are created:  
 
@@ -29,7 +29,7 @@ Each version is trained using 4 model types:
 Each model is trained with 3 different hyperparameter sets and logged to MLflow. Therefore total number of models trained= 4x3x3 = 36.   
 
 
-#🔍 MLflow Tracking 
+## 🔍MLflow Tracking 
 
 MLflow is used to:  
 - Track model metrics: accuracy, precision, recall  
@@ -39,7 +39,7 @@ MLflow is used to:
   - `champion`: Best performing model  
   - `challenger`: Second-best performing model  
 
-#🚀 Serving with Flask  
+## 🚀Serving with Flask  
 
 Run the Flask app to expose the champion/challenger model as a prediction service.  
 
@@ -53,7 +53,7 @@ POST http://127.0.0.1:5001/predict
 }  
 Model is selected randomly between champion and challenger.  
 
-#📌 Notes
+## 📌Notes
 
 Use MLflow UI (mlflow ui) to explore and compare all runs.  
 Registered models and aliases are managed under the name BestIrisModel.  
