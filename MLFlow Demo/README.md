@@ -3,7 +3,7 @@
 This project showcases a complete ML experimentation and deployment pipeline using **MLflow** and **Scikit-learn** with the Iris dataset.  
 
 
-#📁 Folder Structure  
+# Folder Structure  
 
 MLFlow Demonstration  
 ├── data_version.py # Trains models on 3 dataset versions  
