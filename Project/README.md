@@ -14,7 +14,7 @@ Predicting churn enables targeted retention strategies, improving customer lifet
 
 ## 🏗️ Project Structure
 
-Project/
+Project/  
 ├── app.py # Flask API for serving predictions  
 ├── preprocess.py # Data cleaning and feature processing  
 ├── train.py # Model training and saving  
