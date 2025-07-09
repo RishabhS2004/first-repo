@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/risha/MLOps/Project/mlruns/766491145516633184/models/m-f0f63fd318fd4e44a47b60c8184011c2/artifacts
+creation_timestamp: 1751825480025
+experiment_id: '766491145516633184'
+last_updated_timestamp: 1751825485900
+model_id: m-f0f63fd318fd4e44a47b60c8184011c2
+model_type: null
+name: random_forest_model
+source_run_id: 771e0c14bd50456cbeea9d8d1539f595
+status: 2
+status_message: null

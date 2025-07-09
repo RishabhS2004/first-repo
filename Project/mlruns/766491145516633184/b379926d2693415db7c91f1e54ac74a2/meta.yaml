@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/risha/MLOps/Project/mlruns/766491145516633184/b379926d2693415db7c91f1e54ac74a2/artifacts
+end_time: 1751826298199
+entry_point_name: ''
+experiment_id: '766491145516633184'
+lifecycle_stage: active
+run_id: b379926d2693415db7c91f1e54ac74a2
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751826294338
+status: 3
+tags: []
+user_id: risha

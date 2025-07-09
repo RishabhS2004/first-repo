@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/risha/MLOps/Project/mlruns/766491145516633184/models/m-615bfa42f3874c69bb9d9d3e8528f3d3/artifacts
+creation_timestamp: 1751826701276
+experiment_id: '766491145516633184'
+last_updated_timestamp: 1751826704946
+model_id: m-615bfa42f3874c69bb9d9d3e8528f3d3
+model_type: null
+name: logistic_regression_model
+source_run_id: 5c0b6e4f629e4ec3af63ca4ff8c586bd
+status: 2
+status_message: null
