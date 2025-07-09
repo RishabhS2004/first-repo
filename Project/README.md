@@ -15,36 +15,36 @@ Predicting churn enables targeted retention strategies, improving customer lifet
 ## 🏗️ Project Structure
 
 Project/
-├── app.py # Flask API for serving predictions
-├── preprocess.py # Data cleaning and feature processing
-├── train.py # Model training and saving
-├── requirements.txt # Python dependencies
-├── Dockerfile # Container definition
-├── .dockerignore # Ignore unnecessary files in image
-├── data/
-│ └── customers_clean.csv
-├── model/
-│ └── churn_model.pkl
-├── processed/
-│ └── scaler.pkl
-
+├── app.py # Flask API for serving predictions  
+├── preprocess.py # Data cleaning and feature processing  
+├── train.py # Model training and saving  
+├── requirements.txt # Python dependencies  
+├── Dockerfile # Container definition  
+├── .dockerignore # Ignore unnecessary files in image  
+├── data/  
+│ └── customers_clean.csv  
+├── model/  
+│ └── churn_model.pkl  
+├── processed/  
+│ └── scaler.pkl  
+  
 
 ---
 
 ## 🚀 How It Works
 
-1. **Preprocessing**:
-   - Handles missing values
-   - Encodes categorical variables
-   - Scales numerical features
+1. **Preprocessing**:  
+   - Handles missing values  
+   - Encodes categorical variables  
+   - Scales numerical features  
+  
+2. **Model Training**:  
+   - Trains both Random Forest & Logistic Regression  
+   - Evaluates and saves the best model (`churn_model.pkl`)  
 
-2. **Model Training**:
-   - Trains both Random Forest & Logistic Regression
-   - Evaluates and saves the best model (`churn_model.pkl`)
-
-3. **Serving**:
-   - A Flask API loads the model and scaler
-   - Accepts JSON input and returns churn prediction
+3. **Serving**:  
+   - A Flask API loads the model and scaler  
+   - Accepts JSON input and returns churn prediction  
 
 ---
 
@@ -80,24 +80,24 @@ Response:
 
 ## 📦 Setup (For Local Development)
 
-Clone the repo
-Create virtual environment (optional)
-Install dependencies
+Clone the repo  
+Create virtual environment (optional)  
+Install dependencies  
 
-pip install -r requirements.txt
+pip install -r requirements.txt  
 
-Run:
+Run:  
 
-python preprocess.py
-python train.py
-python app.py
+python preprocess.py  
+python train.py  
+python app.py  
 
 ## 🧪 Dependencies
 
-Python 3.11
-pandas
-scikit-learn
-Flask
-joblib
-numpy
-mlflow (optional)
+Python 3.11  
+pandas  
+scikit-learn  
+Flask  
+joblib  
+numpy  
+mlflow (optional)  
