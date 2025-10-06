@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/risha/MLOps/MLFlow/mlruns/485124706553252814/b7e8620c450946c693f9a5ebf298651f/artifacts
+end_time: 1750750817328
+entry_point_name: ''
+experiment_id: '485124706553252814'
+lifecycle_stage: active
+run_id: b7e8620c450946c693f9a5ebf298651f
+run_name: v3-RF
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750750813890
+status: 3
+tags: []
+user_id: risha

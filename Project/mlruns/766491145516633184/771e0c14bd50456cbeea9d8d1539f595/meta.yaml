@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/risha/MLOps/Project/mlruns/766491145516633184/771e0c14bd50456cbeea9d8d1539f595/artifacts
+end_time: 1751825485970
+entry_point_name: ''
+experiment_id: '766491145516633184'
+lifecycle_stage: active
+run_id: 771e0c14bd50456cbeea9d8d1539f595
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751825479109
+status: 3
+tags: []
+user_id: risha

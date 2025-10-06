@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/risha/MLOps/MLFlow/mlruns/485124706553252814/models/m-e0d53762743b4a138275505df57ac915/artifacts
+creation_timestamp: 1750750807397
+experiment_id: '485124706553252814'
+last_updated_timestamp: 1750750810590
+model_id: m-e0d53762743b4a138275505df57ac915
+model_type: null
+name: model
+source_run_id: dca2554d426d41c4b724a93b2eeaf83b
+status: 2
+status_message: null
